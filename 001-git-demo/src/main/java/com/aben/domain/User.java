@@ -17,6 +17,7 @@ public class User {
     public User(String name, String age) {
         this.name = name;
         this.age = age;
+        System.out.print("Hello");
     }
 
     public String getName() {
